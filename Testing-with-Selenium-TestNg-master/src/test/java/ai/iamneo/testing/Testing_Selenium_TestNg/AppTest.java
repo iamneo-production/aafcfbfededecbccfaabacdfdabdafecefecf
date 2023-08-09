@@ -21,7 +21,6 @@ public class AppTest {
   driver = new RemoteWebDriver(new URL("http://localhost:4444"), chromeOptions);
      driver.manage().window().maximize();
  }
- /home/coder/project/workspace/Testing-with-Selenium-TestNg-master/pom.xml
  @Test
 //Checking the title of iamNeo (Home - iamneo)
  public void iamNeo() throws InterruptedException 
